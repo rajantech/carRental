@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SIGNUP2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="PLEASE PROVIDE FOLLOWING INFORMATION"
+                android:textAlignment="center"
+                android:textColor="@color/colorCar"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:hint="Contact Number"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/apt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:hint="Apartment Number"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/buildingnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:hint="Building Number"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+
+            <EditText
+                android:id="@+id/street"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="Street"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/postal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="Postal Code"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+            <EditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="City"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/province"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="Province"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:hint="Country"
+                android:inputType="text"
+                android:padding="20dp"
+                android:textColorHint="@color/colorCar" />
+
+
+
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button"
+                android:onClick="RegisterData"
+                android:text="SUBMIT INFORMATION"
+                android:textColor="@color/colorCar" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

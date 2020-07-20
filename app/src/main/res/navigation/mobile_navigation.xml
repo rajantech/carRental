@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.carrentalprototype.admin.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_admin_home" />
+
+
+    <fragment
+        android:id="@+id/navigation_bookings"
+        android:name="com.example.carrentalprototype.admin.ui.booings.adminBookinglist"
+        android:label="Bookings"
+        tools:layout="@layout/fragment_admin_bookinglist" />
+
+
+    <fragment
+        android:id="@+id/navigation_vehicle"
+        android:name="com.example.carrentalprototype.admin.ui.vehicle.adminVehicleList"
+        android:label="Vehicle"
+        tools:layout="@layout/fragment_admin_vehicle_list" />
+
+
+
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.carrentalprototype.admin.ui.userlist.admin_userList"
+        android:label="Users"
+        tools:layout="@layout/fragment_admin_userlist" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.carrentalprototype.admin.ui.notifications.NotificationsFragment"
+        android:label="Queries"
+        tools:layout="@layout/fragment_admin_notifications" />
+
+
+
+
+</navigation>

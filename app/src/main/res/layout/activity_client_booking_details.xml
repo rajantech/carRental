@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clientBookingDetails">
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/headingBack"
+                android:drawableRight="@drawable/carlogo"
+                android:padding="15dp"
+                android:text="Chevrolet Spark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/chev"></ImageView>
+
+            <TextView
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:padding="15dp"
+                android:text="CAD 10$/HOUR"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/vehicleid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="5"
+                android:text="Vehicle Id: 1442987" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/done"
+                android:padding="15dp"
+                android:text="  FREE CANCELLATION"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:padding="15dp"
+                android:text="CAR SPECIFICATIONS"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/seats"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/seats"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="4 Seats"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/door"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/doors"
+                    android:drawablePadding="10dp"
+                    android:padding="15dp"
+                    android:text="2 Door"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ac"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="Air Conditioning"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/vehicleTransmision"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-85dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/auto"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="15dp"
+                    android:text="Automatic"
+                    android:textSize="16dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:text="INCLUDED COMPLETELY FREE"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cancel_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/done"
+                android:paddingLeft="15dp"
+                android:text="  Free Cancellation"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:text="SUPPLIER INFORMATION"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/pickLocationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/done"
+                android:drawablePadding="10dp"
+                android:paddingLeft="15dp"
+                android:text="Pick Up Location : Downtown, Montreal"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editwithnoradius"
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Adress For Pick Up:"
+                    android:textColor="@color/saveButton"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Street Name/Number:" />
+
+                <TextView
+                    android:id="@+id/street"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rue Sherbrooke"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Postral Code:" />
+
+                <TextView
+                    android:id="@+id/postal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="G6D3U3"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="City:" />
+
+                <TextView
+                    android:id="@+id/city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Montreal"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Province:" />
+
+                <TextView
+                    android:id="@+id/province"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quebec"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/dropLocationTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/done"
+                android:drawablePadding="10dp"
+                android:paddingLeft="15dp"
+                android:text="Drop Off Location : Pitsburg, Montreal"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editwithnoradius"
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Adress For Drop Off:"
+                    android:textColor="@color/saveButton"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Street Name/Number:" />
+
+                <TextView
+                    android:id="@+id/dropStreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1233 - Rue Pitsburg"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Postral Code:" />
+
+                <TextView
+                    android:id="@+id/dropPostal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="H3H2MI"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="City:" />
+
+                <TextView
+                    android:id="@+id/dropzCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Montreal"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Province:" />
+
+                <TextView
+                    android:id="@+id/dropprovince"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quebec"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:text="DO YOU NEED ANY EXTRA ACCESORIES ?"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editwithnoradius"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Baby Seats: "
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/babySeats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:entries="@array/babySeatSpinner" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Journey Insurance(Included car only)"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <CheckBox
+                    android:id="@+id/insurence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp"
+                    android:textColor="@color/saveButton" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="USB(all compatible)"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/u"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0dp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editwithnoradius"
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
+
+                <TextView
+                    android:id="@+id/textVie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Total Cost (In CAD)"
+                    android:textColor="@color/saveButton"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/te"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="Before Taxes : "
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/beforeTax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_weight="1"
+                        android:text="$100 "
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:text="Taxes(Province + federal) : "
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/tax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_weight="1"
+                        android:text="$20 "
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:background="@color/headingBack"
+                        android:padding="10dp"
+                        android:text="Total Net Amount : "
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/totalAmount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_weight="1"
+                        android:background="@color/headingBack"
+                        android:padding="10dp"
+                        android:text="$120 "
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="15dp"
+                android:text="FULL PROTECTION"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/next"
+                android:gravity="center"
+                android:onClick="loadTerms"
+                android:text="Terms And Conditions"
+                android:textSize="16dp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/procede"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scroll"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:onClick="completion"
+                android:background="@color/saveButton"
+                android:text="Proceed To Payment"
+                android:textColor="@color/whitee"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/clientvehicllist"
+    android:layout_height="wrap_content">u
+
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/whitee"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="15dp"
+                android:orientation="vertical"
+                android:layout_weight="65"
+                >
+
+                <TextView
+                    android:id="@+id/vehicleClass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Economy"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chevrolet Spark 2017"
+                    android:textSize="18sp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/saveButton"
+                android:padding="15dp"
+                android:layout_weight="35"
+                >
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$366.52"
+                    android:textColor="@color/whitee"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="TOTAL COST"
+                    android:textColor="@color/whitee"
+                    android:textSize="15sp"
+                    android:gravity="center_horizontal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgcar"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:src="@drawable/chevrolt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/subBack"
+            android:weightSum="10"
+            android:padding="15dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="6"
+                >
+                <TextView
+                    android:id="@+id/Millage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MILEAGE PER LITER : 18km"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="4"
+                >
+                <TextView
+                    android:id="@+id/seats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:drawableLeft="@drawable/seats"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:id="@+id/doors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:drawablePadding="10dp"
+                    android:text="4"
+                    android:drawableLeft="@drawable/doors"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:visibility="invisible"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+

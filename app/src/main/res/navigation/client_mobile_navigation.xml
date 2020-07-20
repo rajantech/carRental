@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_clientvehilelist"
+        android:name="com.example.carrentalprototype.ui.clientVehicleList.clientVehicleList"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_client_vehicle_list" />
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.carrentalprototype.ui.home.ClientHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_client_home" />
+
+    <fragment
+        android:id="@+id/nav_mybooking"
+        android:name="com.example.carrentalprototype.ui.myBooking.mybooking_client"
+        android:label="My Booking"
+        tools:layout="@layout/fragment_mybooking_client" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.carrentalprototype.ui.myAccount.myAccountFragment"
+        android:label="My Account"
+        tools:layout="@layout/fragment_my_account" />
+
+    <fragment
+        android:id="@+id/nav_query"
+        android:name="com.example.carrentalprototype.ui.query.query_client"
+        android:label="Send Query"
+        tools:layout="@layout/fragment_query_client" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.carrentalprototype.ui.contact.contact_client"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_client" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.carrentalprototype.ui.about.about_client"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_client" />
+
+</navigation>

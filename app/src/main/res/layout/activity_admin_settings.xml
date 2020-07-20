@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/subBack"
+    tools:context=".admin.adminSettings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="chngemail"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawableRight="@drawable/next"
+                android:gravity="center|left"
+                android:text="Move Account To Another Email" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="chngpass"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawableRight="@drawable/next"
+                android:gravity="center|left"
+                android:text="Change Password" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <Switch
+                android:id="@+id/switch1"
+                android:background="@drawable/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Login"
+               />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

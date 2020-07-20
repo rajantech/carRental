@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/saveButton</color>
+    <color name="colorPrimaryDark">@color/saveButton</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="whitee">#fff</color>
+    <color name="appBackgrondColor">#EFF1F9</color>
+    <color name="saveButton2">#2CA7E0</color>
+    <color name="saveButton">#607d8b</color>
+    <color name="cancelButton">#ff0099cc</color>
+    <color name="black">#000</color>
+
+    <color name="colorCar">#212121</color>
+
+    <color name="saveButtonrajan">#A8DA44</color>
+    <color name="cancelButtonrajan">#AAE4FB</color>
+
+    <color name="headingBack">#E3E3E3</color>
+    <color name="subBack">#F4F5F5</color>
+
+
+
+</resources>

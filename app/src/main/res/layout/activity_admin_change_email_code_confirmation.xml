@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackgrondColor"
+    tools:context=".admin.adminChangeEmailCodeConfirmation">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edit"
+        android:alpha="1"
+        android:orientation="vertical"
+        android:paddingLeft="0dp"
+        android:paddingTop="5dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="20dp"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:src="@drawable/success"
+                 />
+
+
+            <TextView
+                android:id="@+id/mesage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text=""
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/saveButton"
+                android:text="HOME"
+                android:onClick="toHome"
+                android:textColor="@color/whitee"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carrentalprototype">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BookingCompleted"></activity>
+        <activity android:name=".admin.adminUpdateLincenseInfo" />
+        <activity android:name=".terms_and_conditions" />
+        <activity android:name=".uploadImages" />
+        <activity android:name=".ruf" />
+        <activity
+            android:name=".SIGNUP2"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".admin.adminDashBoard"
+            android:label="@string/title_activity_admin_dash_board">
+
+        </activity>
+        <activity android:name=".admin.adminUpdateBookingSelectCar" />
+        <activity android:name=".admin.adminUpdateBooking" />
+        <activity android:name=".admin.adminUpdateVehicle" />
+        <activity android:name=".clientChangeBooking" />
+        <activity android:name=".clientViewBooking" />
+        <activity android:name=".clientUpdateLicenceInfo" />
+        <activity android:name=".clientChangePassword" />
+        <activity android:name=".clientupdategeneralinfo" />
+        <activity android:name=".admin.adminChangeEmailCodeConfirmation" />
+        <activity android:name=".admin.adminChangeEmail" />
+        <activity android:name=".admin.adminChangePassword" />
+        <activity android:name=".admin.adminSettings" />
+        <activity android:name=".admin.adminProfile" />
+        <activity android:name=".clientBookingDetails" />
+        <activity android:name=".clientVehicleList" />
+        <activity android:name=".admin.adminAddNewVehicle" />
+        <activity android:name=".admin.adminUpdateUser" />
+        <activity android:name=".admin.adminViewBooking" />
+        <activity android:name=".admin.adminViewQuery" />
+        <activity android:name=".admin.adminViewUser" />
+        <activity android:name=".admin.adminViewVehicle" />
+        <activity android:name=".admin.admin_user_list" />
+        <activity android:name=".admin.admin_vehicle_list" />
+        <activity android:name=".admin.admin_query_list" />
+        <activity android:name=".admin.adminBookingList" />
+        <activity android:name=".admin.adminHome" />
+        <activity android:name=".clientForgetPasswordCode" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".clientSetNewPassword" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".admin.adminLogin"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".clientLogIn"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".clientForgetPassword"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".splashScreen"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

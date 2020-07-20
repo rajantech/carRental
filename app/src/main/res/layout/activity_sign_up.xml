@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="272dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/car" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="Create Your Account"
+        android:textAlignment="center"
+        android:textColor="@color/colorCar"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="0dp"
+        android:hint="First Name"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="@color/colorCar" />
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"
+        android:hint="Last Name"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="@color/colorCar" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColorHint="@color/colorCar" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="10dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/colorCar" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:onClick="entertosecond"
+        android:text="Create My Account"
+        android:textColor="@color/colorCar" />
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="backtologin"
+        android:text="LogIn"
+        android:textAlignment="center"
+        android:textColor="@color/colorCar"
+        android:textColorHighlight="@color/colorCar"
+        android:textColorHint="@color/colorCar"
+        android:textColorLink="@color/colorCar" />
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>

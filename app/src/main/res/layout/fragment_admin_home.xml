@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingBottom="60dp"
+    android:background="@color/appBackgrondColor"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_weight="8"
+                android:gravity="center|left"
+                android:text="Bookings" />
+            <TextView
+                android:id="@+id/bookings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_weight="8"
+                android:gravity="center|left"
+                android:text="Users" />
+            <TextView
+                android:id="@+id/users"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_weight="8"
+                android:gravity="center|left"
+                android:text="Vehicle" />
+            <TextView
+                android:id="@+id/vehicles"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_weight="8"
+                android:gravity="center|left"
+                android:text="Queries" />
+            <TextView
+                android:id="@+id/queries"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_weight="8"
+                android:gravity="center|left"
+                android:text="Revenue" />
+            <TextView
+                android:id="@+id/revenue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAlignment="textEnd"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="0"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/chngemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawableRight="@drawable/next"
+                android:gravity="center|left"
+                android:text="Move Account To Another Email" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chngpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawableRight="@drawable/next"
+                android:gravity="center|left"
+                android:text="Change Password" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/logoutAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/editwithnoradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:gravity="center|left"
+                android:text="LogOut" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

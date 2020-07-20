@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "451279698087",
+    "firebase_url": "https://carrentalprototype.firebaseio.com",
+    "project_id": "carrentalprototype",
+    "storage_bucket": "carrentalprototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451279698087:android:9952ff75830f3d3ffec382",
+        "android_client_info": {
+          "package_name": "com.example.carrentalprototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451279698087-ha3l62flnebi9nk9dsvifvbdhsikjd6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carrentalprototype",
+            "certificate_hash": "a85fd817dfccc3a239a50cc506db99dca037b750"
+          }
+        },
+        {
+          "client_id": "451279698087-csntmdlre9593e84v8e2nt0h0qf47f3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd_zZnuGSYVPpOoqMeeXTPpwZvLLWgZjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451279698087-csntmdlre9593e84v8e2nt0h0qf47f3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.adminUpdateVehicle">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/NewCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Update Vehicle"
+                android:layout_marginBottom="5dp"
+                android:textAlignment="center"
+                android:layout_weight="2"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_marginTop="0dp"
+                android:drawablePadding="10dp"
+                android:hint="Title"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/numberPlate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:hint="Number On plate"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Class"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleClass"
+                    android:padding="20dp"
+                    android:entries="@array/vehicleClassSpinner"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Seats"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleSeats"
+                    android:padding="20dp"
+                    android:entries="@array/carSeats"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Type"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleSeatsee"
+                    android:padding="20dp"
+                    android:entries="@array/Spinner_vehicle_type"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Doors"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+
+                <Spinner
+                    android:id="@+id/vehicleDoors"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:entries="@array/Spinner_vehicle_doors"
+                    android:padding="20dp" />
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Air Conditioning"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleac"
+                    android:padding="20dp"
+                    android:entries="@array/Spinner_vehicle_airconditionig"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Transmision"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehicleTransmision"
+                    android:padding="20dp"
+                    android:entries="@array/Spinner_vehicle_automatic"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pick_Up Place"
+                    android:padding="20dp"
+                    android:textColor="@color/colorCar"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vehiclePickUp"
+                    android:padding="20dp"
+                    android:entries="@array/pickupSpinner"
+                    android:background="@drawable/edit"
+                    />
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/Millage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Millage"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/PriceHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Price Per Day"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/Model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Model"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <EditText
+                android:id="@+id/kilometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:drawablePadding="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Running Kilometers"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/colorCar"
+                android:textColorHighlight="@color/colorCar"
+                android:textColorHint="@color/colorCar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/editwithnoradius"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vehice Image" />
+
+                <ImageView
+                    android:id="@+id/licenseimg"
+                    android:layout_width="361dp"
+                    android:layout_height="125dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="0dp"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/carlogobig">
+
+                </ImageView>
+
+                <Button
+                    android:id="@+id/selectImage"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:drawableLeft="@drawable/imagee"
+                    android:background="@drawable/editwithnoradius"
+                    android:text="Select Image"
+                    android:layout_marginBottom="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrolling"
+            android:layout_marginTop="0dp"
+            android:layout_weight="5"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Cancel"
+            android:textColor="@color/whitee"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonnew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addVeicle"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="5"
+            android:background="@color/saveButton"
+            android:text="Update Info"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

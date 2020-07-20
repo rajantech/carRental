@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">carrentalprototype</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Infinity Car Rentals</string>
+    <string name="nav_header_subtitle">infinitycars.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_share">Share</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="Spinner_items">
+        <item>Spinner Item One</item>
+        <item>Spinner Item Two</item>
+    </string-array>
+
+    <string-array name="babySeatSpinner">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="carSeats">
+        <item>2</item>
+        <item>4</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="seatSpinner">
+
+        <item>4</item>
+        <item>7</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="Spinner_gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Spinner_vehicle_type">
+
+        <item>Car</item>
+        <item>Pick-Up Truck</item>
+        <item>Mini Car</item>
+    </string-array>
+
+
+    <string-array name="Spinner_vehicle_airconditionig">
+
+        <item>Included</item>
+        <item>Not Included</item>
+    </string-array>
+
+
+    <string-array name="Spinner_vehicle_freeCancelection">
+        <item>Select One</item>
+        <item>Yes</item>
+        <item>NO</item>
+    </string-array>
+
+
+    <string-array name="Spinner_vehicle_doors">
+
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="Spinner_vehicle_automatic">
+        <item>Auto</item>
+        <item>Manual</item>
+    </string-array>
+
+    <string-array name="Spinner_insurance">
+        <item>Spinner Item One</item>
+    </string-array>
+    <string-array name="Spinner_usb">
+        <item>Spinner Item One</item>
+        <item>Spinner Item Two</item>
+    </string-array>
+    <string-array name="driverAgeSpinner">
+        <item>Below 18</item>
+        <item>Above 18</item>
+    </string-array>
+
+
+    <string-array name="vehicleClassSpinner">
+        <item>Economy</item>
+        <item>Regular</item>
+    </string-array>
+
+    <string-array name="pickupSpinner">
+        <item>1. Company`s Location</item>
+        <item>2. Sher Brook"</item>
+        <item>3. McGill Downtown</item>
+        <item>4. Montreal Trudeau Airport</item>
+        <item>5. Pittsburgh Etna</item>
+    </string-array>
+    <string name="title_activity_admin_dash_board">adminDashBoard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

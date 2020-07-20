@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whitee"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context=".admin.adminViewVehicle">
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:paddingBottom="60dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableRight="@drawable/carlogo"
+                android:text=""
+                android:textSize="24sp"
+                android:padding="15dp"
+                android:background="@color/headingBack"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:visibility="invisible"
+                android:layout_height="164dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/chev"></ImageView>
+
+            <TextView
+                android:id="@+id/cost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text=""
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_weight="5"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/done"
+                android:padding="15dp"
+                android:text="  FREE CANCELLATION"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:padding="15dp"
+                android:text="CAR SPECIFICATIONS"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/seats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/seats"
+                    android:drawablePadding="10dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:paddingLeft="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/doors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:drawableLeft="@drawable/doors"
+                    android:drawablePadding="10dp"
+                    android:textSize="16dp"
+                    android:padding="15dp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ac"
+                    android:drawablePadding="10dp"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:paddingLeft="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/automanual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-85dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/auto"
+                    android:text=""
+                    android:drawablePadding="10dp"
+                    android:textSize="16dp"
+                    android:paddingLeft="15dp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="15dp"
+                android:layout_marginBottom="10dp"
+                android:text="INCLUDED COMPLETELY FREE"
+                android:textColor="@color/saveButton"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/done"
+                android:text="  Free Cancellation"
+                android:paddingLeft="15dp"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/subBack"
+                android:text="Number On Plate"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/numberplate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/subBack"
+                android:text="Killometer Runned"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/reading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/subBack"
+                android:text="Class"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/cls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/subBack"
+                android:text="Type"
+                android:padding="15dp"/>
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="" />
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrolling"
+            android:layout_marginTop="0dp"
+            android:layout_weight="5"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="Delete"
+            android:textColor="@color/whitee"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="5"
+            android:background="@color/saveButton"
+            android:text="Update Vehicle"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
